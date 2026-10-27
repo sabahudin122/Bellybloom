@@ -2,6 +2,8 @@
 
 Bellybloom is a safety-first baby food planner and parent community built with Next.js App Router, TypeScript, Tailwind CSS, Prisma, SQLite, NextAuth, Zod, React Hook Form, Recharts, and the OpenAI Responses API.
 
+Current MVP version: `0.1.1`.
+
 > **Important:** Bellybloom is a working MVP, not a production-ready medical or nutrition product. The feeding guidance, safety rules, privacy controls, and security design require review by qualified clinicians, privacy professionals, and security professionals before production use.
 
 ## Clean setup
@@ -38,6 +40,8 @@ npm run typecheck
 npm run build
 npm start
 ```
+
+GitHub Actions runs installation, migrations, seed validation, lint, typecheck, tests, and the production build for every push to `main` and every pull request.
 
 ## Implemented flows
 
